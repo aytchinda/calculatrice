@@ -1,0 +1,33 @@
+@import url(/assets/css/color.css);
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.b{
+    border: 1px solid var(--main-color-black);
+}
+#app{
+    background-color:var(--main-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*horizontale X*/
+    align-items: center; /*verticale Y*/
+}
+.calculette{
+    background-color: var(--main-color-white);
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    gap: 10px;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.col-calculette-1{
+    max-width: 70%;
+}
